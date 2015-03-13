@@ -14,6 +14,7 @@
 		5DCED99F19D8DC9B00DE1DC2 /* Lesson03Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCED99E19D8DC9B00DE1DC2 /* Lesson03Tests.swift */; };
 		5DCED9A919D8DF0800DE1DC2 /* ArrayTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCED9A819D8DF0800DE1DC2 /* ArrayTableViewController.swift */; };
 		5DCED9AB19D8DF4E00DE1DC2 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCED9AA19D8DF4E00DE1DC2 /* Animal.swift */; };
+		E9AFB50C1AB3004B00772FB5 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AFB50B1AB3004B00772FB5 /* ModalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		5DCED99E19D8DC9B00DE1DC2 /* Lesson03Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson03Tests.swift; sourceTree = "<group>"; };
 		5DCED9A819D8DF0800DE1DC2 /* ArrayTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayTableViewController.swift; sourceTree = "<group>"; };
 		5DCED9AA19D8DF4E00DE1DC2 /* Animal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		E9AFB50B1AB3004B00772FB5 /* ModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 		5DCED97A19D8DC9B00DE1DC2 = {
 			isa = PBXGroup;
 			children = (
+				E9AFB50B1AB3004B00772FB5 /* ModalViewController.swift */,
 				5DCED98519D8DC9B00DE1DC2 /* Lesson03 */,
 				5DCED99B19D8DC9B00DE1DC2 /* Lesson03Tests */,
 				5DCED98419D8DC9B00DE1DC2 /* Products */,
@@ -215,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DCED9A919D8DF0800DE1DC2 /* ArrayTableViewController.swift in Sources */,
+				E9AFB50C1AB3004B00772FB5 /* ModalViewController.swift in Sources */,
 				5DCED9AB19D8DF4E00DE1DC2 /* Animal.swift in Sources */,
 				5DCED98B19D8DC9B00DE1DC2 /* ViewController.swift in Sources */,
 				5DCED98919D8DC9B00DE1DC2 /* AppDelegate.swift in Sources */,
@@ -401,6 +405,7 @@
 				5DCED9A419D8DC9B00DE1DC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5DCED9A519D8DC9B00DE1DC2 /* Build configuration list for PBXNativeTarget "Lesson03Tests" */ = {
 			isa = XCConfigurationList;
@@ -409,6 +414,7 @@
 				5DCED9A719D8DC9B00DE1DC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
