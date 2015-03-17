@@ -17,5 +17,13 @@ class ViewController: UIViewController {
     TODO four: Hook up the button on the home screen to push ArrayTableViewController into view (via the navigation controller) when tapped. Do this by triggering a segue from this view controller. The method you are looking for is performSegueWithIdentifier. Find the identifier from the storyboard.
     */
 
+    @IBAction func showModal(sender: AnyObject) {
+        self.presentViewController(ModalViewController(), animated: true, completion: nil)
+    }
+    
+    @IBAction func showTableView(sender: AnyObject) {
+        performSegueWithIdentifier("show", sender: self)
+    }
+    
 }
 
