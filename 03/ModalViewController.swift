@@ -22,7 +22,7 @@ class ModalViewController: UIViewController {
         if (myImage != nil){
             let myImageView = UIImageView(image: myImage)
             myImageView.frame = view.frame
-            myImageView.frame = CGRectMake(10, 10, 200, 200)
+            myImageView.frame = CGRectMake(100, 100, 200, 200)
             view.addSubview(myImageView)
         }else{
             println("image not found")
@@ -30,7 +30,7 @@ class ModalViewController: UIViewController {
         
         dismissButton.setTitle("Dismiss", forState: .Normal)
         
-        dismissButton.frame = CGRectMake(150,175,200,50)
+        dismissButton.frame = CGRectMake(100,350,200,50)
         dismissButton.addTarget(self, action: "dismissModal", forControlEvents: .TouchUpInside)
         view.addSubview(dismissButton)
         
